@@ -1,0 +1,28 @@
+<xml>
+	
+	<!-- множители раскладки--> 
+	<multiplier x="1" y="1" />
+	
+	<!-- позиция стопки свободных карт и смещение друг от друга-->
+	<slot type="drawpile" x="10" y="7" xstagger="0.05" layer="1"/>
+	
+	<!-- дискард  -->
+	<slot type="discardpile" x="-11" y="7" layer="2"/>
+
+	<!-- позиция ыелевой карты-->
+	<slot type="target" x="-3" y="0" layer="4">
+		<childSlot type="target" x="-6" y="0" layer="4"/>
+		<childSlot type="target" x="-3" y="0" layer="4"/>
+		<childSlot type="target" x="0" y="0" layer="4"/>
+		<childSlot type="target" x="3" y="0" layer="4"/>
+		<childSlot type="target" x="6" y="0" layer="4"/>
+	</slot>
+
+	<!-- позиции игроков-->
+	<slot type="hand" x="0" y="-7.5" rot="0" player="0" layer="3"/>
+	<slot type="hand" x="-11" y="0" rot="270" player="1" layer="3"/>
+	<slot type="hand" x="0" y="8" rot="180" player="2" layer="3"/>
+	<slot type="hand" x="11" y="0" rot="90" player="3" layer="3"/>
+	
+</xml>
+	
